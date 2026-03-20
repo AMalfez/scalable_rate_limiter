@@ -1,7 +1,7 @@
 const redis = require('../config/redis');
 
 const TIME_LIMIT = 60;
-const RATE_LIMIT = 10;
+const RATE_LIMIT = 100;
 
 const redisLimiter = async (req, res, next) => {
     try {
