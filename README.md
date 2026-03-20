@@ -77,6 +77,8 @@ A backend system designed to handle high-concurrency traffic using **Redis-based
 - Worker logs
   <img width="443" height="157" alt="image" src="https://github.com/user-attachments/assets/c2092df8-33e8-468c-9c68-0cf15383203c" />
 
+  ---
+
 - API responses (200 & 429)
   <img width="321" height="194" alt="success_img" src="https://github.com/user-attachments/assets/1574d7e5-6586-4a82-9bd8-cd0f7c944f82" />
   <img width="308" height="199" alt="success_img_1" src="https://github.com/user-attachments/assets/80ae5bd2-3c01-418d-93c0-a833402fa9db" />
