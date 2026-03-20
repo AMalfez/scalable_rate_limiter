@@ -6,6 +6,7 @@ const cors = require('cors')
 const userRoute = require('./routes/userRoute')
 const logger = require('./middlewares/logger')
 const redisLimiter = require('./middlewares/redisLimiter')
+const orderRoute = require('./routes/orderRoute')
 
 app.use(cors())
 app.use(express.json())
@@ -17,6 +18,7 @@ app.get('/', (req, res) => {
 })
 
 app.use("/api/user", userRoute);
+app.use('/api/order', orderRoute);
 
 const PORT = process.env.PORT || 8000
 app.listen(PORT, () => {
