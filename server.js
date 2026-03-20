@@ -5,10 +5,12 @@ const app = express()
 const cors = require('cors')
 const userRoute = require('./routes/userRoute')
 const logger = require('./middlewares/logger')
+const redisLimiter = require('./middlewares/redisLimiter')
 
 app.use(cors())
 app.use(express.json())
 app.use(logger)
+app.use(redisLimiter)
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
