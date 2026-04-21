@@ -109,6 +109,11 @@ A backend system designed to handle high-concurrency traffic using **Redis-based
 
 ---
 
+## AWS hosted link
+http://3.25.108.133:8080
+
+---
+
 ## 👨‍💻 Author
 
 **Alfez Mansuri**
